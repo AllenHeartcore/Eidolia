@@ -10,7 +10,6 @@ Usage: python apps/sovits_dataset.py ipr ktn --limit 15 --output voices.zip
 
 import json
 from argparse import ArgumentParser
-from io import BytesIO
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 

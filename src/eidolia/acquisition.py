@@ -1,6 +1,5 @@
 """Shared acquisition execution; game-specific source discovery stays in Profiles."""
 
-from email.utils import parsedate_to_datetime
 from hashlib import md5
 
 import requests
